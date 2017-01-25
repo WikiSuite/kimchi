@@ -31,6 +31,8 @@ Requires:	python-libguestfs
 Requires:	libguestfs-tools
 Requires:	python-magic
 Requires:	python-paramiko
+BuildRequires:  autoconf
+BuildRequires:  automake
 BuildRequires:	gettext-devel
 BuildRequires:	libxslt
 BuildRequires:	python-lxml
