@@ -72,6 +72,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Jan 24 2016 eGloo <developer@egloo.ca> 2.3.1
+- First build
+
 * Thu Jun 18 2015 Lucio Correia <luciojhc@linux.vnet.ibm.com> 2.0
 - Run kimchi as a plugin
 
