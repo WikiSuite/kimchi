@@ -1,5 +1,5 @@
 Name:		kimchi
-Version:	2.3.1
+Version:	2.5.0
 Release:	0%{?dist}
 Summary:	Kimchi server application
 BuildRoot:	%{_topdir}/BUILD/%{name}-%{version}-%{release}
@@ -8,13 +8,11 @@ Group:		System Environment/Base
 License:	LGPL/ASL2
 Source0:	%{name}-%{version}.tar.gz
 Requires:	wok >= 2.1.0
-Requires:	ginger-base
 Requires:	qemu-kvm
 Requires:	gettext
 Requires:	libvirt
 Requires:	libvirt-python
 Requires:	libvirt-daemon-config-network
-Requires:	python-websockify
 Requires:	python-configobj
 Requires:	novnc
 Requires:	python-pillow
@@ -74,6 +72,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Tue Oct 31 2017 eGloo <developer@egloo.ca> 2.5.0-1
+- Version 2.5.0
+
 * Tue Jan 24 2017 eGloo <developer@egloo.ca> 2.3.1
 - First build
 
