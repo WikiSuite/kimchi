@@ -7,7 +7,7 @@ BuildArch:	noarch
 Group:		System Environment/Base
 License:	LGPL/ASL2
 Source0:	%{name}-%{version}.tar.gz
-Requires:	wok >= 2.1.0
+Requires:	wok >= 2.5.0
 Requires:	qemu-kvm
 Requires:	gettext
 Requires:	libvirt
