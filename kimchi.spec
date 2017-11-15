@@ -15,6 +15,7 @@ Requires:	libvirt-python
 Requires:	libvirt-daemon-config-network
 Requires:	python-configobj
 Requires:	novnc
+Requires:	spice-html5
 Requires:	python-pillow
 Requires:	pyparted
 Requires:	python-psutil >= 0.6.0
